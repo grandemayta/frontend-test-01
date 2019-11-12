@@ -13,10 +13,13 @@
   "scripts": {
     "server": "yarn workspace @frontend-assignment/server start",
     "client": "yarn workspace @frontend-assignment/client start",
-    "start": "yarn server && yarn client"
+    "start": "concurrently \"yarn server\" \"yarn client\""
   },
   "workspaces": [
     "packages/*"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
 }
