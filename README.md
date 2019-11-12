@@ -1,10 +1,10 @@
-# Assignment for Frontend Position
+# Assignment for Frontend Position [DONE]
 
-In Satispay one of the main task for a frontend developer is to build useful interfaces in order to display, search and interact with data.
+In order to launch at the same time client and server just type the following npm script:
 
-The target of this UI are other Satispay colleagues through internal dashboard/consoles.
-
-It is not important to have a beautiful UI in terms of design, but we need to have a consistent and working interface allowing the users to work with data without frictions.
+```sh
+yarn start
+```
 
 ## Introduction
 
