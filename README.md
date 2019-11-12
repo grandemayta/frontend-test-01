@@ -1,4 +1,4 @@
-# Assignment for Frontend Position [DONE]
+# Assignment for Frontend [DONE]
 
 In order to launch at the same time client and server just type the following npm script:
 
