@@ -11,7 +11,9 @@
     }
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "yarn workspace @frontend-assignment/server start",
+    "client": "yarn workspace @frontend-assignment/client start",
+    "start": "yarn server && yarn client"
   },
   "workspaces": [
     "packages/*"
